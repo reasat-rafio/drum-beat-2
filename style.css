@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.keys{
+    background: linear-gradient(rgb(29, 122, 126), blue);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: all 1s ease;
+    
+}
+
+.key {
+    border: 4px solid rgb(29, 122, 126);
+    padding: 5px 10px;
+    width: 70px;
+    box-shadow: 0px 0px 5px;
+}
+
+.key kbd {
+    display: block;
+    font-size: 40px;
+}
+
+.key span {
+    color: rgb(29, 122, 126);
+    font-weight: bold;
+}
+
+.playing {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px;
+    transition: all 0.3s ease;
+    border: 4px solid rgb(255, 255, 255);
+}
